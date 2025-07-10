@@ -219,4 +219,27 @@
     font-weight: 700;
 }
 
+
+.focus-better-section{
+    background: #F2EDED;
+    padding: 70px 10%;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.focus-better-section h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.focus-better-section p{
+    color: gray;
+    margin: 24px 0;
+}
+
+.focus-better-section div img{
+    border-radius: 48px;
+    margin-top: 25px;
+}
  
