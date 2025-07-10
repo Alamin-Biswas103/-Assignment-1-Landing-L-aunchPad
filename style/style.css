@@ -1,0 +1,101 @@
+/* Google fonts Inter and Raleway is imported here */
+
+
+/* Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Raleway font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Universal Design for the website */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styling here */
+#body{
+    max-width: 1440px; 
+}
+
+
+/* .header, .main{
+    margin: 0 10%;
+} */
+
+
+/* need for my work */
+.hidden{
+    display: none;
+}
+
+
+/* common design */
+.blue-btn{
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 2.5%;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* Header and Navigation bar is styled here ------- */
+
+
+.header{
+    background: url(../Assets/Hero-bg.png);
+}
+#navbar{
+    padding: 50px 10% 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar h1{
+    font-weight: 900;
+    font-size: 2.1rem;
+    color: #4E47FF;
+}
+
+
+
+/* Header banner is styled here */
+.header-banner{
+    padding: 10px 18% 150px;
+    text-align: center;
+}
+
+.header-banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 37px;
+}
