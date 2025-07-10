@@ -41,9 +41,9 @@
 }
 
 
-/* .header, .main{
+.main{
     margin: 0 10%;
-} */
+}
 
 
 /* need for my work */
@@ -56,7 +56,8 @@
 .blue-btn{
     color: #fff;
     font-weight: 700;
-    padding: 12px 2.5%;
+    padding: 12px 
+    4%;
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
@@ -71,6 +72,7 @@
 
 .header{
     background: url(../Assets/Hero-bg.png);
+    margin-bottom: 116px;
 }
 #navbar{
     padding: 50px 10% 158px;
@@ -99,3 +101,35 @@
     color: #252432;
     margin-bottom: 37px;
 }
+
+
+/* Main section designing is stared here --------- */
+
+
+
+/* See in action section is designed here*/
+ .see-action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 115px;
+ }
+
+ .action-section-text-container h2{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+ }
+
+ .action-section-text-container p{
+    color: #25243286;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+ }
+
+
+ .action-section-image-container img{
+    border-radius: 48px;
+ }
+
