@@ -284,3 +284,39 @@
     width: 100%;
     border-radius: 5px;
 }
+
+
+/* footer section is designed here */
+.footer{
+   text-align: center;  
+    background: #fff;
+    padding: 104px 30%;
+}
+
+.footer h1{
+    color: #4E47FF;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.footer>p{
+    color: rgb(128, 128, 128);
+    margin: 20px 0;
+
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.footer a:hover{
+    background: #e7b7b7;
+}
