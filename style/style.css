@@ -39,6 +39,7 @@
 #body{
     max-width: 1440px; 
     color: #252432;
+    background-color: #fff;
 }
 
 
@@ -166,3 +167,56 @@
     color: #25243285;
 
  }
+
+ .users-feedback-section{
+    margin-bottom: 137px;
+ }
+
+ .users-feedback-section>h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+ }
+
+ .user-feedback-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5%;
+ }
+
+ .user-feedback-card{
+    background: #F2EDED;
+    padding: 1.5%;
+    border: none;
+    border-radius: 10px;
+ }
+
+ .stars-container{
+    margin-bottom: 24px;
+ }
+
+ .user-feedback-card>p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+
+ .reviewer-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .reviewer-container img{
+    border-radius: 100px;
+ }
+
+ .reviewer-container p,small{
+    color: gray;
+ }
+.reviewer-container p{
+    font-weight: 700;
+}
+
+ 
