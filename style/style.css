@@ -39,7 +39,7 @@
 #body{
     max-width: 1440px; 
     color: #252432;
-    background-color: #fff;
+     background: #F2EDED;
 }
 
 
@@ -187,7 +187,7 @@
  }
 
  .user-feedback-card{
-    background: #F2EDED;
+    background: #fff;
     padding: 1.5%;
     border: none;
     border-radius: 10px;
@@ -242,4 +242,45 @@
     border-radius: 48px;
     margin-top: 25px;
 }
+
+
+
+/* Form Section is designed here */
+.form-section{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 70px 0;
+}
+
  
+.form-section h1{
+    font-size: 6rem;
+    color: #000;
+    width: 100%;
+}
+
+.form-section form{
+    width: 80%;
+    justify-content: flex-end;
+}
+
+
+.form-section label{
+    color: #000;
+    font-weight: 500;
+}
+
+.form-section input,textarea{
+    margin-bottom: 15px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    width: 100%;
+    background: #fff;
+}
+
+.form-section button{
+    width: 100%;
+    border-radius: 5px;
+}
