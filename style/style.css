@@ -39,7 +39,7 @@
 #body{
     max-width: 1440px; 
     color: #252432;
-    background: #F2EDED;
+    background: #efedf260;
     margin: 0 auto;
 }
 
@@ -192,6 +192,7 @@
     padding: 1.5%;
     border: none;
     border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.148);
  }
 
  .stars-container{
